@@ -13,7 +13,7 @@
 
 ## Description
 - All python and R script used to run and benchmark tools in the study is presented in "Script" folder.
-- For reproduction: run Cross\_Validation for each scRNA-seq dataset first, if you need feature selection, run "rank\_gene\_dropout.py" now or never, then run the exact "run_XXX.X" script you want, use "evaluate.R" to generate final result for the classifier finally.
+- For reproduction: run Cross\_Validation for each scRNA-seq dataset first, if you need feature selection, run "rank\_gene\_dropout.py" now or never, then run the exact "run_XXX.X" script you want, use "evaluate.R" to generate comprehensive evaluation result for the classifier finally.
 - Test results and figure raw data is stored in "Results" folder.
 - For stability and generalization ability tests, all required input file are already in place.
 - Due to the lack of computational resource, some experiments planned in advance have never been actually tested, we are glad if anyone can make them happen. 

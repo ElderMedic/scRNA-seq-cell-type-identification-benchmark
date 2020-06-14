@@ -18,3 +18,11 @@
 - For stability and generalization ability tests, all required input file are already in place.
 - Due to the lack of computational resource, some experiments planned in advance have never been actually tested, we are glad if anyone can make them happen. 
 
+### How to Use
+- Generate training and test cell indices: 
+	Cross-validation R script → .RData file
+- Input: Expression matrix and true cell-type labels .csv file, RData file above
+- Feature selection: run gene dropout rate ranking Python script to get gene indices
+- Run each classifier wrapper in R/Python with default parameter
+- Evaluate the classifier prediction by metrics calculation R script
+- Save recorded data and draw figures and tables
